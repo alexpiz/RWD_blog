@@ -1,16 +1,15 @@
-// 
 // Variables
-//
 
-// Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700,700italic,600,300italic,300);
+// @import google fonts
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Quicksand);
 
-// Font 
-$text-sans: 'Josefin Sans', sans-serif;
+// Font s
+$text-p: 'Quicksand', sans-serif;
+$titles: 'Oleo Script Swash Caps', cursive;
 
-// Colors 
-$background-color: #E8E7E6; // gris
-$background-nav: #E8E7E6; // gris
+// colors 
+$background: url(../img/background.jpg); // gris
+$background-nav: #; // gris
 $background-post-recent: #E8E7E6; // gris
 $background-main-post: #E8E7E6; // gris
 $text: #535257; // negro

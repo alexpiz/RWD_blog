@@ -5,7 +5,7 @@
 body {
   background-image: url(../img/background.jpg);
   box-sizing: inherit;
-  font-family: $text-sans;
+  font-family: $text-p;
   color: $text;
 }
 
@@ -41,9 +41,7 @@ ul {
 }
 
 li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
+
 }
 
 button {
