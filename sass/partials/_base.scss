@@ -49,27 +49,6 @@ button {
   border: none;
 }
 
-.see-more::after, .next-page::after {
-  content: ">";
-  margin-left: 10px;
-  font-weight: lighter;
-}
-
-.last-page::after {
-  content: ">>";
-  margin-left: 10px;
-  font-weight: lighter;
-}
-
-.facebook {
-  background-image: url(../img/facebook.png);
-  margin-right: 20px;
-}
-
-.twitter {
-  background-image: url(../img/twitter.png);
-  margin-right: 30px;
-}
 
 .social li{
   float: right;
@@ -79,7 +58,7 @@ button {
 }
 
 footer {
-  background: $background-color;
+  background: $background-main-post;
   padding: 4% 0;
 }
 

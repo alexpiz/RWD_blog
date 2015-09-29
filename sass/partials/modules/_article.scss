@@ -1,8 +1,7 @@
-//
 // Estilos de Preview Post
 
 .post-main {
-  max-width: 900px;
+  max-width: 100%;
 }
 
 .post-preview img {
@@ -10,8 +9,8 @@
 }
 
 .post-preview {
-  max-width: 26%;
-  margin: 3% 2% 0 0;
+  max-width: 100%;
+  margin: 20% 0 0 0;
   padding: 2% 2.5%;
   background: #E8E7E6;
 }
@@ -44,9 +43,6 @@
   font-size: 20px;
 }
 
-//
-// Estilos de Main Post
-//
 .post-body {
   max-width: 800px;
   background: #E8E7E6;

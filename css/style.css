@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700,700italic,600,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Graduate);
 body {
+  background-image: url(../img/background.jpg);
   box-sizing: inherit;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #535257; }
 
 h2 {
@@ -29,32 +30,9 @@ ul {
   margin: 0;
   padding: 0; }
 
-li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0; }
-
 button {
   background: none;
   border: none; }
-
-.see-more::after, .next-page::after {
-  content: ">";
-  margin-left: 10px;
-  font-weight: lighter; }
-
-.last-page::after {
-  content: ">>";
-  margin-left: 10px;
-  font-weight: lighter; }
-
-.facebook {
-  background-image: url(../img/facebook.png);
-  margin-right: 20px; }
-
-.twitter {
-  background-image: url(../img/twitter.png);
-  margin-right: 30px; }
 
 .social li {
   float: right;
@@ -77,6 +55,11 @@ header, section, footer {
   margin: 0 auto;
   max-width: 1200px; }
 
+h1 {
+  font-size: 2em;
+  font-family: "Graduate", cursive;
+  margin: 0 0% 10%; }
+
 .logo a {
   font-size: 50px; }
 
@@ -93,14 +76,14 @@ header, section, footer {
   padding: 0 3%; }
 
 .post-main {
-  max-width: 900px; }
+  max-width: 100%; }
 
 .post-preview img {
   max-width: 100%; }
 
 .post-preview {
-  max-width: 26%;
-  margin: 3% 2% 0 0;
+  max-width: 100%;
+  margin: 20% 0 0 0;
   padding: 2% 2.5%;
   background: #E8E7E6; }
 
@@ -149,8 +132,7 @@ header, section, footer {
 
 .post-recent {
   margin-top: 2.3%;
-  float: right;
-  max-width: 20%;
+  max-width: 100%;
   background: #E8E7E6;
   padding: 2% 2.5%; }
 

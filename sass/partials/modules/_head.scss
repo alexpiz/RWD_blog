@@ -1,6 +1,12 @@
 //Estilos del header
 // 
 //
+h1 {
+	font-size: 2em;
+	font-family: $titles;
+    margin: 0 0% 10%;
+}
+
 .logo a{
   font-size: 50px;
 }
@@ -10,7 +16,7 @@
 }
 
 .main-nav, .logo {
-  background: $background;
+  background: $background-main-post;
 }
 
 .main-nav li{
