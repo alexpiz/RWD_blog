@@ -1,0 +1,3 @@
+database pass: admin
+database name: root
+database user: user

@@ -30,9 +30,20 @@ ul {
   margin: 0;
   padding: 0; }
 
+img {
+  width: inherit;
+  max-width: 100%;
+  height: auto; }
+
 button {
   background: none;
   border: none; }
+
+.btn {
+  background: #fff;
+  border: 1px solid #535257;
+  padding: 1% 10%;
+  font-size: 20px; }
 
 .social li {
   float: right;
@@ -42,7 +53,7 @@ button {
 
 footer {
   background: #E8E7E6;
-  padding: 4% 0; }
+  padding: 10% 0; }
 
 footer p {
   font-weight: bold;
@@ -117,7 +128,6 @@ h1 {
   padding: 5% 3%; }
 
 .post-body img {
-  max-width: 100%;
   margin: 10% auto;
   display: block; }
 
@@ -144,6 +154,7 @@ h1 {
   margin: 3% 0 20% 0; }
 
 .see-more {
-  float: right; }
+  float: right;
+  margin-top: -13%; }
 
 /*# sourceMappingURL=style.css.map */
