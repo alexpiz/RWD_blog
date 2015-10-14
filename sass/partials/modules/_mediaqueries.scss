@@ -1,7 +1,12 @@
 @media (min-width: 640px){
-	.post-preview {
+	.preview-post {
     max-width: 40%;
-    margin: 6% 0 0 0;
+    margin: 6% 2.5% 0px 2.5%;
     padding: 2% 2.5%;
     background: #E8E7E6;
+    display: block;
+    float: right;
+	}
+
+
 }

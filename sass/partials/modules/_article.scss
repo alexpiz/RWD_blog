@@ -1,26 +1,26 @@
 // Estilos de Preview Post
 
-.post-main {
+.main-post {
   max-width: 100%;
 }
 
-.post-preview img {
+.preview-post img {
   max-width: 100%;
 }
 
-.post-preview {
+.preview-post {
   max-width: 100%;
   margin: 20% 0 0 0;
   padding: 2% 2.5%;
   background: #E8E7E6;
 }
 
-.post-page {
+.page-post {
   margin: 5% 0 20% 0;
   padding-left: 18%; 
 }
 
-.post-page li{
+.page-post li{
   padding: 0 2%;
   font-size: 30px;
   font-weight: bold;
@@ -33,12 +33,12 @@
   font-size: 20px;
 }
 
-.updated {
+.update {
   font-weight: bold;
   font-size: 20px;
 }
 
-.updated-preview {
+.update-preview {
   color: $text-secondary;
   font-size: 20px;
 }
@@ -55,7 +55,7 @@
   display: block;
 }
 
-.post-body .updated-preview{
+.post-body .update-preview{
   margin: 2% 0;
 }
 
