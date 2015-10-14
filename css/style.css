@@ -93,8 +93,8 @@ h1 {
   max-width: 100%; }
 
 .preview-post {
-  max-width: 100%;
-  margin: 20% 0 0 0;
+  max-width: 90%;
+  margin: 10% 5% 0 5%;
   padding: 2% 2.5%;
   background: #E8E7E6; }
 
@@ -163,7 +163,6 @@ h1 {
     margin: 6% 2.5% 0px 2.5%;
     padding: 2% 2.5%;
     background: #E8E7E6;
-    display: block;
-    float: right; } }
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
