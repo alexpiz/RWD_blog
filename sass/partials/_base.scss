@@ -1,5 +1,5 @@
 // 
-// Estilos para los elementos base y footer
+// Elementos base footer
 //
 
 body {
@@ -38,6 +38,11 @@ p {
 ul {
   margin: 0;
   padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
 img {
