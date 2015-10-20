@@ -1,5 +1,5 @@
 //Estilos del header
-// 
+//
 //
 h1 {
 	font-size: 2em;
@@ -8,21 +8,54 @@ h1 {
 }
 
 .logo a{
+  color: $text-white;
   font-size: 50px;
 }
 
-.logo { 
+.logo {
+  background-color:$transparent;
   padding: 8% 3%;
 }
 
-.main-nav, .logo {
+.main-nav {
   background: $background-main-post;
+}
+
+@media (max-width: 640px){
+  .main-nav{
+  height:0;
+  overflow: hidden;
+  }
 }
 
 .main-nav li{
   padding: 2% 2%;
 }
+ @media (min-width: 640px){
+  .main-nav li{
+  padding: 2% 0.8%;
+  display: inline-block;
+  }
+}
 
 .main-nav ul {
   padding: 0 3%;
+}
+@media (min-width: 640px){
+  .main-nav ul {
+    margin-top: -8%;
+    padding: 0 3%;
+}
+}
+
+.main-nav-expand{
+  transition: 0.3s;
+  height: 3%;
+}
+
+@media (min-width: 640px){
+  .button-main{
+    display: none;
+  }
+
 }

@@ -14,10 +14,20 @@
   padding: 2% 2.5%;
   background: #E8E7E6;
 }
+  @media (min-width: 640px){
+    .post-preview {
+    max-width: 40%;
+    margin: 6% 0 0 3%;
+    padding: 2% 2.5%;
+    background: #E8E7E6;
+    float: left;
+  }
+}
 
 .post-page {
   margin: 5% 0 20% 0;
-  padding-left: 18%; 
+  padding-left: 18%;
+  clear: both;
 }
 
 .post-page li{

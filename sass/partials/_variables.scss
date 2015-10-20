@@ -6,10 +6,12 @@
 $text-p: 'Quicksand', sans-serif;
 $titles: 'Graduate', cursive;
 
-// colors 
-$background: url(../); // gris
+$background: url(../);
+// colors
+$transparent: rgba(0,0,0,0.8);
 $background-nav: #E8E7E6; // gris
-$background-post-recent: #E8E7E6; // gris
-$background-main-post: #E8E7E6; // gris
+$background-post-recent: #E8E7E6;
+$background-main-post: #E8E7E6;
 $text: #535257; // negro
 $text-secondary: #A4A3A5; // gris claro
+$text-white : #fff;

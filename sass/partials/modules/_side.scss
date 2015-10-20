@@ -3,10 +3,18 @@
 //
 
 .post-recent {
-  margin-top: 2.3%;
+  margin-top: 1%;
   max-width: 100%;
   background: $background-post-recent;
   padding: 2% 2.5%;
+}
+@media (min-width:640px){
+  .post-recent{
+    padding: 0% 0;
+  }
+  .post-recent li{
+    margin-top: -1%;
+  }
 }
 
 .post-recent a{
